@@ -4,8 +4,6 @@ import { cn } from "@/lib/utils"
 import type { Metadata } from "next"
 import { Work_Sans } from "next/font/google"
 import "./globals.css"
-import Script from "next/script"
-import Nav from "@/components/navbar/Nav"
 
 const font = Work_Sans({ subsets: ["latin"] })
 
@@ -82,19 +80,6 @@ export const metadata: Metadata = {
         height: 1200,
       },
     ],
-  },
-  robots: {
-    index: true,
-    follow: true,
-    nocache: false,
-    googleBot: {
-      index: true,
-      follow: false,
-      noimageindex: true,
-      "max-video-preview": -1,
-      "max-image-preview": "large",
-      "max-snippet": -1,
-    },
   },
   category: "technology",
 }

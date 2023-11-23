@@ -9,9 +9,6 @@ import Projects from "@/components/projects/Projects"
 import { AnimatePresence } from "framer-motion"
 import { useEffect, useState } from "react"
 
-//TODO: Integrate with Sanity.io
-//TODO: Make all project page
-
 export default function Home() {
   const [loadingPreloader, setLoadingPreloader] = useState<boolean>(true)
   const [endedLoading, setEndedLoading] = useState<boolean>(false)
